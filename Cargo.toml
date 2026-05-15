@@ -4,12 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "aurora_gui"
-path = "src/aurora_gui.rs"
+name = "aurora"
+path = "src/main.rs"
 
 [[bin]]
-name = "aurora"
-path = "src/tokenizer.rs"
+name = "aurora_gui"
+path = "src/aurora_gui.rs"
 
 [dependencies]
 eframe  = "0.27"
