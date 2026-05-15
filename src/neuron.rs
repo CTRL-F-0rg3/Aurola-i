@@ -1,7 +1,3 @@
-unsafe {
-   pub fn neuron() {
-
-    }
-     
+pub fn neuron(){
+    
 }
-

@@ -1,6 +1,21 @@
 [package]
-name = "aurola"
+name = "aurora"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+
+[[bin]]
+name = "aurora_gui"
+path = "src/aurora_gui.rs"
+
+[[bin]]
+name = "aurora"
+path = "src/tokenizer.rs"
 
 [dependencies]
+eframe  = "0.27"
+egui    = "0.27"
+serde   = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[build-dependencies]
+# build.rs nie wymaga zewnętrznych zależności

@@ -1,5 +1,5 @@
-mod tokenizer
-mod neuron
+mod tokenizer;
+mod neuron;
 fn main() {
     println!("Hello, world!");
 }
